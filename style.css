@@ -98,5 +98,9 @@ main .botao a{
     border-radius: 10px;
     font-weight: 700;}
 
+main .botao a:hover{
+    background-color: #fc4129;
+}
+
 
 
