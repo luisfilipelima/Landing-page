@@ -86,6 +86,7 @@ main .main-text h1{
 main .imagem img{
     width: 500px;
     margin-top: 3rem;
+    animation: float 2s  infinite alternate;
 }
 
 main .botao {
@@ -103,5 +104,12 @@ main .botao a:hover{
     transition: all 0.5s;
 }
 
-
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+}
 
